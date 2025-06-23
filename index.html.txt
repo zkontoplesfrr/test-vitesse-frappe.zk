@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test de Vitesse de Frappe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Test de Vitesse de Frappe</h1>
+    <p id="text-to-type"></p>
+    <textarea id="input" placeholder="Tapez ici..." disabled></textarea>
+    
+    <div class="controls">
+      <button id="start-btn">Démarrer</button>
+      <span id="timer">Temps : 30s</span>
+    </div>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
